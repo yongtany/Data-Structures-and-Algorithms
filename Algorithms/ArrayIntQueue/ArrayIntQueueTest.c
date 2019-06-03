@@ -12,7 +12,7 @@ int main(void)
   while(1) {
     int menu, x;
     printf("현재 데이터 수 : %d / %d\n", Size(&q), Capacity(&q));
-    printf("(1)인큐 (2)팝 (3)피크 (4)출력 (0)종료 : ");
+    printf("(1)인큐 (2)디큐 (3)피크 (4)출력 (0)종료 : ");
     scanf("%d", &menu);
 
     if(menu == 0) break;
