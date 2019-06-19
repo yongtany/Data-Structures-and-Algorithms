@@ -14,7 +14,21 @@ void dfs(int k)
     return;
 }
 
+/* 인접리스트로 구현 했을 경우
+void dfs(int k)
+{
+  for(int i=0; i < G[i].size(); i++)
+    if(!visited[G[k][i].to])
+    {
+      visited[G[k][i].to] = true;
+      dfs(G[k][i]);
+    }
 
+    return;
+}
+*/
+
+/* 인접 행렬 */
 int main()
 {
     scanf("%d, %d", &n, &m);
