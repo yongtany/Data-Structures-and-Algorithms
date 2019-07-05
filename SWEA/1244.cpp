@@ -26,7 +26,7 @@ void go(string n, int cnt) {
         return;
     }
 
-    for (int i = 0; i < n.size(); i++) {
+    for ( int i = 0; i < n.size(); i++) {
         for (int j = i + 1; j < n.size(); j++) {
             string tmp = n;
             swap(tmp[i], tmp[j]);
