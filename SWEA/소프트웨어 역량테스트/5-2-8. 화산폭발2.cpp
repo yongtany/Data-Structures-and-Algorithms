@@ -69,6 +69,7 @@ void dfs(int now, int cnt) {
       int nxt_col = (i % N) + 1;
       if(MAT[nxt_row][nxt_col] == 0) {
         // (nxt_row, nxt_col)에 추가 바리게이트 생성
+        MAT[nxt_row][nxt_col] = 1;
         dfs(i + 1, cnt + 1);
         // 탐색이 끝나면 추가 바리게이트 제거
         MAT[nxt_row][nxt_col] = 0;
