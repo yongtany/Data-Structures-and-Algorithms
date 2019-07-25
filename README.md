@@ -23,7 +23,7 @@ I'm trying to solve the problem of BOJ and SWEA and improve the algorithm abilit
 
 - Basic and essential Datasturcture by javascript.
 - Basic algorithm by C.
-- Solve BOJ and SWEA algorithm probelm by C++.
+- Solving BOJ and SWEA algorithm problems by C++.
 
 
 Author
